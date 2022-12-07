@@ -6,10 +6,16 @@ import WorkIcon from '@mui/icons-material/Work'
 import GridViewIcon from '@mui/icons-material/GridView'
 import CloseIcon from "@mui/icons-material/Close"
 import MenuIcon from "@mui/icons-material/Menu"
+import '../../../App.css'
 
 
 export const Header = () => {
   const [sidebar, setSidebar] = useState(false)
+
+  window.addEventListener("scroll", function() {
+    const header = document.querySelector(".header")
+    header.classList.toggle("active", window.screenY> 200)
+  })
   return (
     <>
       <header className='header'>
