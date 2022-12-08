@@ -207,8 +207,11 @@ p {
   opacity: 0.7;
 }
 /*------------about--------*/
+.about  {
+  height: 90vh;
+}
 .mtop {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 h3 {
   font-size: 15px;
@@ -232,4 +235,63 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.about .img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  right: 0;
+  width: 600px;
+  height: 86vh;
+  z-index: 1;
+}
+/*------------services--------*/
+.contain {
+  height: 220vh;
+}
+.services {
+  text-align: center;
+  background-color: #85878e;
+  padding: 50px 0;
+}
+.services .box {
+  text-align: left;
+  left: 0;
+  height: 90vh;
+}
+.services .img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+.services .text {
+  background-color: #fff;
+  box-shadow: 0 5px 20px 0 rbg(0 0 0 /6%);
+  padding: 30px;
+  margin: 20px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+}
+.services .text h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+/*------------wrapper--------*/
+.wrapper{
+  height: 60vh;
+}
+.wrapper .container {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.wrapper h2 {
+  font-size: 40px;
+}
+.wrapper p {
+  opacity: 1;
+  margin-bottom: 30px;
 }

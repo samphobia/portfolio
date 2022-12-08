@@ -20,7 +20,7 @@ const Branding = () => {
   ]
   return (
     <>
-      <section className='branding'>
+      <section className='branding mtop'>
         <div className="container grid">
           {data.map((value) => {
             return (
