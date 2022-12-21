@@ -14,7 +14,7 @@ export const Header = () => {
 
   window.addEventListener("scroll", function() {
     const header = document.querySelector(".header")
-    header.classList.toggle("active", window.screenY> 200)
+    header.classList.toggle("active", window.scrollY> 200)
   })
   return (
     <>
