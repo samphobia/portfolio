@@ -13,9 +13,9 @@ const Home = () => {
           </div>
           <div className="right topMargin">
             <h1>
-              I AM A <br />
-              WEB DEVELOPER
+              SAMUEL OSINUBI 
             </h1>
+            <h3>SOFTWARE DEVELOPER | DATA ANALYST</h3>
             <div className="socialicon">
               <i className='fab fa-facebook-f facebook'></i>
               <i className='fab fa-instagram instagram'></i>
