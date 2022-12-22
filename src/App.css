@@ -9,8 +9,9 @@ body {
 }
 .container {
   max-width: 80%;
-  max-height: 50px;
   margin: auto;
+  /* max-height: 50px; */
+  /* margin: auto; */
 }
 .flex {
   display: flex;
@@ -29,7 +30,7 @@ header {
 }
 header ul li {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 header ul li a {
   font-weight: 500;
@@ -41,10 +42,11 @@ header ul li a:hover {
 }
 .logo{
   display: flex;
-  max-width: 20px;
-  max-height: 40px;
+  width: 100px;
+  height: 50px;
+  padding: 8px 0;
 }
-.HeaderIcon {
+.header .icon {
   margin-left: 20px;
   transition: 0.5s;
 }
@@ -109,6 +111,10 @@ header.active {
 .right {
   width: 50%;
   position: relative;
+  /* margin: auto; */
+}
+.right {
+  margin-left: 20px;
 }
 .flex {
   display: flex;
@@ -208,7 +214,7 @@ p {
 }
 /*------------about--------*/
 .about  {
-  height: 90vh;
+  /* height: 90vh; */
 }
 .mtop {
   margin-top: 90px;
@@ -281,7 +287,7 @@ h3 {
 }
 /*------------wrapper--------*/
 .wrapper{
-  height: 60vh;
+  /* height: 60vh; */
 }
 .wrapper .container {
   max-width: 40%;
@@ -670,5 +676,5 @@ footer .icon i {
   }
 }
 footer .grid1 {
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
 }
