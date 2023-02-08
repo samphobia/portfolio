@@ -5,9 +5,10 @@ const About = () => {
   const data = [
     {
       title: "Who am I and What I do",
-      desc1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus.",
-      desc2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus.",
-      desc3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus.",
+      desc1: "Full-stack development: Ability to design and implement end-to-end solutions from the front-end to the back-end",
+      desc2: "Data modeling and database design: Experience with relational and NoSQL databases, as well as data warehousing and big data technologies",
+      desc3: "Cloud computing: Hands-on experience with cloud platforms such as AWS and GCP, including design and deployment of scalable, highly available systems",
+      desc4: "DevOps: Skilled in automation and configuration management using tools such as Docker and Jenkins",
       cover: "images/assets2.png"
     }
   ]
@@ -26,6 +27,7 @@ const About = () => {
                   <p>{val.desc1}</p>
                   <p>{val.desc2}</p>
                   <p>{val.desc3}</p>
+                  <p>{val.desc4}</p>
                   <button className='primary-btn'>Download CV</button>
                 </div>
                 <div className="right ">

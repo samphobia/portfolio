@@ -21,7 +21,7 @@ const Home = () => {
               <i className='fab fa-instagram instagram'></i>
               <i className='fab fa-linkedIn linkedIn'></i>
             </div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus. Ipsum dolorum alias quo aut sunt nisi! </p>
+            <p> Samuel is a talented software engineer with a strong background in computer science and software development. With a passion for solving complex problems and delivering high-quality, innovative solutions, Samuel has the ability to analyze requirements, design and implement efficient algorithms, and write clean and maintainable code. He has extensive experience with a variety of programming languages and software development methodologies, and he is committed to staying up-to-date with the latest trends and advancements in the field. Samuel is a collaborative team player who enjoys working with others to achieve common goals, and he has a proven track record of delivering successful software projects on time and within budget. With his technical expertise and dedication to quality, Samuel is an asset to any software development team.</p>
             <button className='primary-btn'>Contact Us</button>
           </div>
         </div>

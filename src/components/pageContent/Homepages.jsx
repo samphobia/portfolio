@@ -20,7 +20,7 @@ export const Homepage = () => {
         <Wrapper />
         <Skill />
         <WrapperOne />
-        <Work />
+        {/* <Work /> */}
         <Blog />
       </>
 

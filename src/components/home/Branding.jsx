@@ -4,18 +4,18 @@ const Branding = () => {
   const data = [
     {
       id: "01",
-      heading: "Digital Branding",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.!"
+      heading: "Digital Marketing",
+      desc: "We can help you create an effecting online presence"
     },
     {
       id: "02",
-      heading: "Digital Branding",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.!"
+      heading: "Social Media managing",
+      desc: "give your social pages an edge over competitors"
     },
     {
       id: "03",
-      heading: "Digital Branding",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.!"
+      heading: "Search Engine optimization",
+      desc: "Leverage on the power of search engines"
     }
   ]
   return (
