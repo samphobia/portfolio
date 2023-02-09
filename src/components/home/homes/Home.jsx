@@ -8,7 +8,7 @@ const Home = () => {
         <div className="container flex">
           <div className="left">
             <div className="img">
-              <img src='./images/image2.jpg' alt='' />
+              <img src='./images/Newpp.jpeg' alt='' />
             </div>
           </div>
           <div className="right topMargin">

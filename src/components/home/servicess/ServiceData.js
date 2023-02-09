@@ -6,7 +6,7 @@ const ServiceData = [
     cover: "./images/untitled.png",
   },
   {
-    id: 1,
+    id: 2,
     title: "Web Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim",
     cover: "./images/untitled.png",
