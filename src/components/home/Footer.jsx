@@ -13,7 +13,13 @@ const Footer = () => {
             <p>For more in-depth information, do not hesitate to visit the below social-media haandles</p>
             <div className="socialIcon">
               <i className="fab fa-facebook-f facebook">
-              <FontAwesomeIcon icon={faLinkedin} color="#38d16a" />
+                  <a
+                href="https://www.linkedin.com/in/osinubi-samuel"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} color="#09f788" />
+              </a>
               </i>
               <i class="fa-brands fa-twitter">
               <FontAwesomeIcon icon={faTwitter} color="1a4fb8" />
@@ -57,7 +63,7 @@ const Footer = () => {
           </div>
           <div className="box">
             <h2>Get in Touch</h2>
-            <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, </p>
+            <p>Other means of communication are listed below</p>
             <div className="icon">
               <i className='fa fa-location-dot'>
               <FontAwesomeIcon icon={faLocation} color="#38d16a" />
