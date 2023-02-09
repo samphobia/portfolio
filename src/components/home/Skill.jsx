@@ -14,8 +14,8 @@ const Skill = () => {
   const data = [
     {
       title: "Everyday is a New Challenge",
-      para: "orem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus.",
-      para1: "orem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus."
+      para: "Every day's a brand new start With challenges to play a part. Embrace them with a willing heart, And watch your triumphs play a part.",
+      para1: "New day, new challenge ahead, With obstacles to be met and led. Take each one with courage, don't dread, Success will surely be ahead.."
     }
   ]
   return (

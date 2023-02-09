@@ -118,12 +118,15 @@ header.active {
 }
 .right {
   margin-left: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .flex {
   display: flex;
 }
 .topMargin {
-  margin-top: 80px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .home{
   height: 90vh;
@@ -256,9 +259,9 @@ h3 {
   z-index: 1;
 }
 /*------------services--------*/
-.contain {
+/* .contain {
   height: 220vh;
-}
+} */
 .services {
   text-align: center;
   background-color: #ffffff;
@@ -267,9 +270,10 @@ h3 {
 .services .box {
   text-align: left;
   left: 0;
-  height: 90vh;
+  /* height: 90vh; */
 }
 .services .img {
+  max-width: 100%;
   width: 50%;
   height: 50%;
   object-fit: contain;
@@ -357,13 +361,17 @@ h3 {
 .grid1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  grid-gap: 30px;;
 }
-.wrapperOne {
+
+.containerwr{
+  margin-left: 80px;
+}
+/* .wrapperOne {
   background-color: #38d16a;
   text-align: center;
   height: 140px;
-}
+} */
 .wrapperOne h1 {
   color: #fff;
 }
@@ -496,7 +504,7 @@ h3 {
 }
 /*------------blog--------*/
 .blog{
-  height: 120vh;
+  /* height: 120vh; */
 }
 .blog .heading {
   text-align: center;

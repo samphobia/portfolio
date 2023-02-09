@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="containerr grid1">
           <div className="box">
             <img src="" alt="" />
-            <p>orem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim corporis eius suscipit sit ab, eos amet obcaecati omnis nihil unde tempore natus.</p>
+            <p>For more in-depth information, do not hesitate to visit the below social-media haandles</p>
             <div className="socialIcon">
               <i className="fab fa-facebook-f facebook">
               <FontAwesomeIcon icon={faLinkedin} color="#38d16a" />
@@ -19,7 +19,13 @@ const Footer = () => {
               <FontAwesomeIcon icon={faTwitter} color="1a4fb8" />
               </i>
               <i class="fa-brands fa-twitter">
-              <FontAwesomeIcon icon={faGithub} color="0e0e0e" />
+              <a
+                href="https://github.com/samphobia"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} color="#09f788" />
+             </a>
               </i>
             </div>
           </div>
@@ -73,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="legal container">
-          <p>VCopyright @2023. All rights reserved</p>
+          <p>Copyright @2023. All rights reserved</p>
           <label htmlFor="">
             Designed & Developed by <span>KrexTech</span>
           </label>

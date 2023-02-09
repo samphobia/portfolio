@@ -3,7 +3,7 @@ import React from 'react'
 const WrapperOne = () => {
   const data = [
     {
-      num: "520",
+      num: "5",
       text: "AWARDS WON"
     },
     {
@@ -11,7 +11,7 @@ const WrapperOne = () => {
       text: "SATISFIED CLIENTS"
     },
     {
-      num: "200",
+      num: "20",
       text: "CREATED PROJECTS"
     },
     {
@@ -22,7 +22,7 @@ const WrapperOne = () => {
   return (
     <>
       <section className="branding wrapperOne">
-        <div className="container grid1">
+        <div className="containerwr grid1">
           {data.map((val) => {
             return (
               <div className="box">
